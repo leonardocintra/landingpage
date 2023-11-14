@@ -2,9 +2,8 @@ export default function ContactForm() {
   return (
     <section className="flex p-2 justify-center">
       <div className="sm:w-2/3 flex flex-col sm:flex-row text-white">
-        
         <div className="sm:w-1/2">
-          <p className="text-5xl sm:text-6xl font-bold hover:text-sky-200 text-right pr-3">
+          <p className="text-5xl lg:text-6xl font-bold hover:text-sky-200 text-right pr-3">
             Escale seu negócio{" "}
             <span className="text-teal-400">
               atraindo clientes qualificados{" "}
@@ -18,55 +17,56 @@ export default function ContactForm() {
           </p>
         </div>
 
-        <div className="pt-4 sm:pt-0 sm:w-1/2">
-          <div className="flex items-center justify-center">
-            <form action="" method="POST">
-              <div className="mb-5">
-                <label
-                  htmlFor="name"
-                  className="mb-3 block text-base font-medium text-slate-200"
-                >
-                  Nome completo
-                </label>
-                <input
-                  type="text"
-                  name="name"
-                  id="name"
-                  placeholder="Seu nome completo"
-                  className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
-                />
-              </div>
-              <div className="mb-5">
-                <label
-                  htmlFor="email"
-                  className="mb-3 block text-base font-medium text-slate-200"
-                >
-                  Email
-                </label>
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="seuemail@dominio.com.br"
-                  className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
-                />
-              </div>
-              <div className="mb-5">
-                <label
-                  htmlFor="telefone"
-                  className="mb-3 block text-base font-medium text-slate-200"
-                >
-                  Whatsapp
-                </label>
-                <input
-                  type="number"
-                  name="telefone"
-                  id="telefone"
-                  placeholder="Numero Whatsapp"
-                  className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
-                />
-              </div>
-            </form>
+        <div className="pt-4 pl-4 sm:pt-0 sm:w-1/2">
+          <div>
+            <label
+              htmlFor="nome"
+              className="mb-3 block text-base font-medium text-slate-300"
+            >
+              Nome completo
+            </label>
+            <input
+              id="nome"
+              name="nome"
+              type="text"
+              placeholder="Seu nome completo"
+              className="input input-bordered input-accent w-full max-w-md"
+            />
+          </div>
+          <div className="mt-5">
+            <label
+              htmlFor="nome"
+              className="mb-3 block text-base font-medium text-slate-300"
+            >
+              Email
+            </label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="seuemail@email.com.br"
+              className="input input-bordered input-accent w-full max-w-md"
+            />
+          </div>
+          <div className="mt-5">
+            <label
+              htmlFor="nome"
+              className="mb-3 block text-base font-medium text-slate-300"
+            >
+              Whatsapp
+            </label>
+            <input
+              id="whatsapp"
+              name="whatsapp"
+              type="number"
+              placeholder="Seu whatsapp"
+              className="input input-bordered input-accent w-full max-w-md"
+            />
+          </div>
+          <div className="mt-5 flex justify-end">
+            <button className="btn btn-outline btn-warning">
+              Enviar mensagem
+            </button>
           </div>
         </div>
       </div>

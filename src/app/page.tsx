@@ -7,13 +7,16 @@ import TestimonialsSection from "./components/TestimonialsSection";
 import Link from "next/link";
 import { FaBars } from "react-icons/fa";
 import NavHeader from "./components/NavHeader";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <main className="w-screen h-screen bg-gradient-to-b from-blue-900 to-slate-900">
+    <main className="w-screen h-screen bg-gradient-to-b from-blue-900 to-slate-900 p-2">
       <NavHeader />
 
       <ContactForm />
+
+      <Footer />
     </main>
   );
 }
