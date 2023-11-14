@@ -1,6 +1,6 @@
 export default function ContactForm() {
   return (
-    <section className="bg-white py-12 text-center">
+    <section className="bg-white py-12 px-2 text-center">
       <h2 className="text-2xl font-bold">Entre em Contato Conosco</h2>
       <form className="mt-4 max-w-md mx-auto">
         {/* Campos do formulário */}
