@@ -3,8 +3,8 @@ export default function ContactForm() {
     <section className="flex p-2 justify-center">
       <div className="sm:w-2/3 flex flex-col sm:flex-row text-white">
         
-        <div className="sm:w-1/2 border-pink-600 border">
-          <p className="text-5xl sm:text-6xl font-bold hover:text-sky-200 text-right">
+        <div className="sm:w-1/2">
+          <p className="text-5xl sm:text-6xl font-bold hover:text-sky-200 text-right pr-3">
             Escale seu negócio{" "}
             <span className="text-teal-400">
               atraindo clientes qualificados{" "}
@@ -32,7 +32,7 @@ export default function ContactForm() {
                   type="text"
                   name="name"
                   id="name"
-                  placeholder="Full Name"
+                  placeholder="Seu nome completo"
                   className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
                 />
               </div>
