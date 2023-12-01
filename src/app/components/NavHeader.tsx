@@ -25,7 +25,7 @@ export default function NavHeader() {
                 Metodologia
               </Link>
             </li>
-            <li>
+            <li className="hidden sm:block">
               <Link className="hover:text-cyan-400 transition-colors" href="">
                 Quem somos
               </Link>
