@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <main className="h-screen p-2 bg-gradient-to-r from-blue-900 to-indigo-900">
+    <main className="min-h-screen p-2 bg-gradient-to-r from-blue-900 to-indigo-900">
       <NavHeader />
 
       <div className="flex flex-col sm:flex-row p-2 mt-10">
