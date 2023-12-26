@@ -8,7 +8,7 @@ export default function NavHeader() {
       <div className="w-full backdrop-blur-sm">
         <div className="relative z-1 h-16 mx-auto py-14 px-5 max-w-7xl flex items-center justify-between text-white">
           <Link
-            className="text-2xl hover:text-cyan-400 transition-colors text-center"
+            className="text-3xl sm:text-6xl hover:text-cyan-400 transition-colors text-center font-Caveat"
             href=""
           >
             Gustavo Cintra
