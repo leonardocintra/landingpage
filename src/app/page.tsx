@@ -15,8 +15,8 @@ export default function Home() {
 
       <div className="flex flex-col sm:flex-row p-2 mt-10">
         {/* Coluna 1 */}
-        <div className="flex-1 sm:pl-40">
-          <p className="text-5xl lg:text-6xl font-bold hover:text-sky-200 text-right pr-3">
+        <div className="flex-1 sm:pl-40 text-white">
+          <p className="text-5xl lg:text-6xl font-bold hover:text-amber-500 text-right pr-3 transition-colors duration-300">
             Escale seu negócio{" "}
             <span className="text-teal-400">
               atraindo clientes qualificados{" "}
